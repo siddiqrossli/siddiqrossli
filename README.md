@@ -4,12 +4,6 @@
   <strong>Muhamad Siddiq Rossli</strong> — Software Engineer & AI/ML Practitioner passionate about building intelligent systems, full-stack web applications, and scalable data solutions.
 </p>
 
-<p align="left">
-  <a href="https://github.com/siddiqrossli"><img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-success?style=flat-square" alt="Status" /></a>
-  <a href="https://github.com/siddiqrossli"><img src="https://img.shields.io/badge/Focus-AI%20%2F%20ML%20%26%20Full--Stack-blue?style=flat-square" alt="Focus" /></a>
-  <a href="https://github.com/siddiqrossli"><img src="https://img.shields.io/badge/Profile-GitHub%20Developer-darkviolet?style=flat-square" alt="Profile" /></a>
-</p>
-
 ---
 
 ## 🛠️ Tech Stack
