@@ -8,8 +8,6 @@
 
 ## 🛠️ Tech Stack
 
-Technologies, frameworks, databases, and developer tools grouped by domain. Icons are powered by [Skill Icons](https://skillicons.dev/) and official brand badges for clean, unified dark- and light-mode presentation.
-
 <table border="0">
   <!-- ==================== LANGUAGES ==================== -->
   <tr>
