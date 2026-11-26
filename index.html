@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Siddiq Rossli · Portfolio</title>
+<meta name="description" content="Muhamad Siddiq Rossli, Computer Science (Hons.) student at UiTM and Data Engineering Intern at ERS Energy. Software development, data automation and AI projects.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* To edit: change the text in the HTML below. Colours live here. */
+  :root {
+    --bg: #fafaf7;
+    --surface: #ffffff;
+    --text: #1c1c1a;
+    --muted: #5f5f5a;
+    --line: #e4e3dd;
+    --accent: #0f766e;
+    --accent-soft: #e6f2f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141413;
+      --surface: #1d1d1b;
+      --text: #ecebe6;
+      --muted: #a3a29b;
+      --line: #2f2f2c;
+      --accent: #5eead4;
+      --accent-soft: #1b2e2b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 "Inter", system-ui, sans-serif;
+  }
+  main { max-width: 820px; margin: 0 auto; padding: 56px 16px 72px; }
+  a { color: var(--accent); }
+  h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.15; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 56px 0 16px; }
+  h3 { font-size: 1.05rem; margin: 0; }
+  p { margin: 0 0 12px; }
+  .role { font-size: 1.1rem; color: var(--muted); margin-bottom: 20px; }
+  .facts { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 24px; padding: 0; list-style: none; }
+  .facts li { background: var(--accent-soft); color: var(--text); border-radius: 999px; padding: 4px 12px; font-size: 0.9rem; font-weight: 500; }
+  .links { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-block; padding: 9px 18px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--text); text-decoration: none; font-weight: 500; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .meta { color: var(--muted); font-size: 0.9rem; margin: 2px 0 12px; }
+  ul.points { margin: 0; padding-left: 20px; }
+  ul.points li { margin-bottom: 8px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .result { display: inline-block; margin-top: 10px; font-weight: 600; color: var(--accent); font-size: 0.95rem; }
+  .tools { color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  .stack { display: grid; gap: 12px; }
+  .skills dt { font-weight: 600; }
+  .skills dd { margin: 0 0 14px; color: var(--muted); }
+  footer { margin-top: 64px; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+<main>
+
+  <header>
+    <h1>Muhamad Siddiq Rossli</h1>
+    <p class="role">Computer Science graduate · Software Development &amp; Data Automation</p>
+    <p>I build software that makes everyday work faster: web systems, automations that remove manual data work, and AI tools. I'm currently a Data Engineering Intern at ERS Energy, a solar energy company, and I'm looking for a graduate role in software development or data in Malaysia.</p>
+    <ul class="facts">
+      <li>CGPA 3.74</li>
+      <li>Dean's List, all 5 semesters</li>
+      <li>6 software projects</li>
+      <li>Based in Selangor</li>
+    </ul>
+    <div class="links">
+      <a class="btn primary" href="mailto:siddiqrossli@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/siddiqrossli">LinkedIn</a>
+      <a class="btn" href="https://github.com/siddiqrossli">GitHub</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Data Engineering Intern, Digital Department</h3>
+      <p class="meta">ERS Energy Sdn Bhd, Kuala Lumpur · Sep 2026 – Dec 2026</p>
+      <ul class="points">
+        <li>Restored live solar power readings for the Operations team after their dashboard showed "No Data". Traced the problem to one offline power feeder that was breaking the whole data flow, fixed it, and presented the cause and fix to the Heads of Department.</li>
+        <li>Built an automation that copies Sales Order and invoice data from the company's business system into Google Sheets on its own, so the Sales team gets up-to-date weekly reports without manual copying.</li>
+        <li>Proved that missing sunlight and weather readings came from a fault at the solar site, not the software, and reported it to the site operations team.</li>
+        <li>Kept the monitoring system reliable: brought the server back online, fixed alerts going to the wrong person, and added a new solar site to the dashboard.</li>
+        <li>Travelled to the LSS Pekan solar farm to show site staff how the Inspection App replaces paper inspections.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>ClassScript</h3>
+        <p class="meta">2026 · ongoing</p>
+        <p>Turns lecture recordings into searchable text, then creates summaries, quizzes and a Q&amp;A chatbot so students can revise faster.</p>
+        <span class="result">95.86% word accuracy</span>
+        <p class="tools">Python, Flask, Hugging Face</p>
+      </div>
+      <div class="card">
+        <h3>Hostel Management System</h3>
+        <p class="meta">Politeknik Tapah · 2025</p>
+        <p>Replaced manual hostel paperwork with automatic room allocation and PDF bills for staff.</p>
+        <span class="result">~70% fewer manual steps</span>
+        <p class="tools">Java, MySQL</p>
+      </div>
+      <div class="card">
+        <h3>Game Review Sentiment Analysis</h3>
+        <p class="meta">2025</p>
+        <p>Reads game reviews, labels them positive or negative, and exports the results to Excel.</p>
+        <span class="result">79.05% accuracy</span>
+        <p class="tools">Python, text analysis</p>
+      </div>
+      <div class="card">
+        <h3>Fox Species Image Recognition</h3>
+        <p class="meta">2025</p>
+        <p>Identifies fox species from photos, with a simple screen to upload and check images.</p>
+        <span class="result">98% accuracy</span>
+        <p class="tools">MATLAB, image recognition</p>
+      </div>
+      <div class="card">
+        <h3>LaskarGan</h3>
+        <p class="meta">2025</p>
+        <p>A website where authors publish novels and readers search, bookmark and get recommendations.</p>
+        <span class="result">~80% less effort to find a novel</span>
+        <p class="tools">PHP, JavaScript</p>
+      </div>
+      <div class="card">
+        <h3>Food Ordering System</h3>
+        <p class="meta">Kedai Makan Cik Siti · 2024</p>
+        <p>Ordering system with automatic receipts, sales reports and order tracking.</p>
+        <span class="result">~70% less manual billing work</span>
+        <p class="tools">Oracle APEX, SQL</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What I can do</h2>
+    <dl class="skills">
+      <dt>Build software end to end</dt>
+      <dd>Plan, design and build working web and database systems.</dd>
+      <dt>Automate manual work</dt>
+      <dd>Connect business systems so data moves on its own instead of being copied by hand.</dd>
+      <dt>Find and fix problems</dt>
+      <dd>Trace an issue step by step across connected systems to its real cause, then fix it.</dd>
+      <dt>Apply AI</dt>
+      <dd>Train models that recognise speech, images and the tone of written text.</dd>
+      <dt>Explain technical work simply</dt>
+      <dd>Work with managers, sales staff, site staff and outside vendors.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="stack">
+      <div class="card">
+        <h3>Bachelor of Computer Science (Hons.)</h3>
+        <p class="meta">Universiti Teknologi MARA (UiTM), Kuala Terengganu · 2023 – present</p>
+        <p>CGPA 3.74 · Dean's List Award in all 5 semesters</p>
+      </div>
+      <div class="card">
+        <h3>Foundation in Physical Sciences</h3>
+        <p class="meta">Universiti Malaya · 2022 – 2023</p>
+        <p>CGPA 3.67</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Leadership</h2>
+    <ul class="points">
+      <li><strong>Founder &amp; First President, Chess Club</strong>, UiTM Kuala Terengganu (2026). Started the university's first Chess Club and led its first event, "Chess &amp; Chill".</li>
+      <li><strong>Logistics Committee, PRIDE 12th Edition</strong> (2025). Managed equipment and venue, and presented a product idea at the showcase.</li>
+      <li><strong>Volunteer, FESTI</strong> (2025). Guided visitors through technology demos at Pusat Sains &amp; Kreativiti Terengganu.</li>
+    </ul>
+    <p class="meta" style="margin-top:12px">Languages: Malay (native), English (fluent), Mandarin and Arabic (basic)</p>
+  </section>
+
+  <footer>© 2026 Muhamad Siddiq Rossli</footer>
+</main>
+</body>
+</html>

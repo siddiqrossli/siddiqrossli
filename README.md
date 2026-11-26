@@ -1,8 +1,43 @@
-# Hi there, I'm Siddiq 👋
+# Hi, I'm Siddiq 👋
 
-<p align="left">
-  <strong>Muhamad Siddiq Rossli</strong> — Software Engineer & AI/ML Practitioner passionate about building intelligent systems, full-stack web applications, and scalable data solutions.
-</p>
+**Muhamad Siddiq Rossli** · Computer Science (Hons.) student at UiTM · Data Engineering Intern at ERS Energy
+
+I build software that makes everyday work faster: web systems, automations that remove manual data work, and AI tools. CGPA 3.74 with the Dean's List Award in every semester. Looking for a graduate role in software development or data in Malaysia.
+
+📄 **[View my portfolio page](https://siddiqrossli.github.io/siddiqrossli/)**
+
+---
+
+## 💼 What I'm doing now
+
+**Data Engineering Intern, ERS Energy Sdn Bhd** (solar energy) · Sep 2026 – Dec 2026
+
+- Restored live solar power readings for the Operations team after their dashboard showed "No Data". Found that one offline power feeder was breaking the whole data flow, fixed it, and presented the cause and fix to the Heads of Department.
+- Built an automation that copies Sales Order and invoice data into Google Sheets on its own, so the Sales team gets up-to-date weekly reports without manual copying.
+- Kept the solar monitoring system reliable: brought the server back online, fixed alerts going to the wrong person, and added a new solar site to the dashboard.
+- Visited the LSS Pekan solar farm to show site staff how the Inspection App replaces paper inspections.
+
+---
+
+## 🚀 Projects
+
+| Project | What it does | Result |
+|---|---|---|
+| **ClassScript** (2026, ongoing) | Turns lecture recordings into searchable text, with AI summaries, quizzes and a Q&A chatbot | 95.86% word accuracy |
+| **Hostel Management System**, Politeknik Tapah (2025) | Replaced manual hostel paperwork with room allocation and PDF bills | ~70% fewer manual steps |
+| **Game Review Sentiment Analysis** (2025) | Labels game reviews as positive or negative and exports to Excel | 79.05% accuracy |
+| **Fox Species Image Recognition** (2025) | Identifies fox species from photos | 98% accuracy |
+| **LaskarGan** (2025) | Website where authors publish novels and readers find them | ~80% less effort to find a novel |
+| **Food Ordering System**, Kedai Makan Cik Siti (2024) | Orders, automatic receipts and sales reports | ~70% less manual billing work |
+
+---
+
+## 🎓 Education
+
+- **Bachelor of Computer Science (Hons.)**, Universiti Teknologi MARA (UiTM), Kuala Terengganu · CGPA 3.74 · Dean's List all 5 semesters
+- **Foundation in Physical Sciences**, Universiti Malaya · CGPA 3.67
+
+**Leadership:** Founder & First President of the Chess Club, UiTM Kuala Terengganu (2026)
 
 ---
 
@@ -103,19 +138,10 @@
 
 ---
 
-## 📌 About Me
-
-- 🧠 **AI & ML**: Building machine learning models with PyTorch, TensorFlow, and Scikit-learn (Transformers, YOLO, Wav2Vec 2.0).
-- 💻 **Full-Stack Engineering**: Developing interactive frontends with React & Flutter alongside scalable backends in Java (Spring), Flask, and Node.js.
-- 📊 **Data Analytics**: Designing relational schemas and analytical dashboards with PostgreSQL, MySQL, Oracle APEX, and Power BI (DAX, Power Query).
-- ⚙️ **DevOps & Tooling**: Automating workflows with GitHub Actions, containerizing environments with Docker, and developing in Linux.
-
----
-
 ## 📬 Connect With Me
 
 <p align="left">
   <a href="https://www.linkedin.com/in/siddiqrossli"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:siddiqrossli@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/siddiqrossli"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://siddiqrossli.github.io/siddiqrossli/"><img src="https://img.shields.io/badge/Portfolio-222222?style=flat-square&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
 </p>
